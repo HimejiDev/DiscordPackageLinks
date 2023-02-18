@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(43, 45, 49);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.status {
+    margin: 0;
+    max-height: 25px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#directory {
+    margin: 10px;
+}
+
+.page {}
+
+/* ----------------- FILES ----------------- */
+.filesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    width: 100%;
+    height: calc(100vh - 60px);
+    justify-content: space-between;
+
+    overflow-y: scroll;
+}
+
+.fileContainer {
+    width: 300px;
+    height: 250px;
+
+    background-color: rgb(49, 51, 56);
+
+    border-radius: 10px;
+    padding: 5px;
+
+    margin-bottom: 5px;
+}
+
+.displayContainer {
+    height: 220px;
+    width: 290px;
+
+    background-color: rgb(56,58,64);
+
+    border-radius: 10px;
+    padding: 2px;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.imageFile {
+    max-height: 100%;
+    max-width: 100%;
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.videoFile {
+    max-height: 100%;
+    max-width: 100%;
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.link {
+    color: white;
+
+    position: relative;
+    left: 108.26665px;
+}
