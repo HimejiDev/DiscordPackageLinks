@@ -5,6 +5,8 @@ body {
 }
 
 .top {
+    /* background-color: blue; */
+
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -22,10 +24,35 @@ body {
     margin: 10px;
 }
 
-.page {}
+.pages {
+    height: 43px;
+    width: fit-content;
+    /* background-color: aqua; */
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.page {
+    background-color: rgb(49, 51, 56);
+    margin: 5px;
+    border-radius: 5px;
+
+    position: relative;
+    top: 6px;
+
+    height: 21px;
+    width: 21px;
+
+    text-align: center;
+    cursor: pointer;
+}
 
 /* ----------------- FILES ----------------- */
 .filesContainer {
+    /* background-color: purple; */
+
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
